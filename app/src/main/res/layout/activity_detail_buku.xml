@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/containerdetailbuku"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_detailbuku"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay"/>
+
+        <ImageView
+            android:layout_below="@+id/toolbar_detailbuku"
+            android:id="@+id/pict"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/defaultpict" />
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pict"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:paddingBottom="18dp">
+
+            <ImageView
+                android:id="@+id/edit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/edit" />
+
+            <TextView
+                android:id="@+id/judulbuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Judul Buku"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/hargabuku"
+                android:textStyle="italic"
+                android:text="Harga Buku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_marginTop="33dp"
+                android:layout_alignLeft="@+id/judulbuku"
+                android:layout_alignStart="@+id/judulbuku" />
+
+            <TextView
+                android:id="@+id/deskripsi"
+                android:textStyle="italic"
+                android:text="Deskripsi"
+                android:layout_below="@id/hargabuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:layout_marginTop="5dp"
+                android:layout_alignLeft="@+id/judulbuku"
+                android:layout_alignStart="@+id/judulbuku" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_layout"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout">
+
+            <Button
+                android:id="@+id/namaowner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:textColor="#16a085"
+                android:text="Nama Owner"
+                android:elevation="4dp"
+                android:drawableLeft="@android:drawable/ic_menu_info_details"
+                android:textSize="15dp"/>
+
+            <Button
+                android:id="@+id/notelp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:textColor="#16a085"
+                android:text="NO. HP"
+                android:elevation="4dp"
+                android:drawableLeft="@android:drawable/ic_menu_call"
+                android:textSize="15dp"/>
+
+            <Button
+                android:id="@+id/alamat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:textColor="#16a085"
+                android:drawableLeft="@android:drawable/ic_menu_directions"
+                android:text="ALAMAT"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/terjual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/toolbar_detailbuku"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginTop="25dp"
+            android:text="terjual" />
+
+    </RelativeLayout>
+        <Button
+            android:layout_marginTop="250dp"
+            android:id="@+id/btnrefreshdetailbuku"
+            android:elevation="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="150dp"
+            android:drawableLeft="@drawable/refresh"
+            android:background="@drawable/bordereditbtnref"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="MUAT ULANG"/>
+    </RelativeLayout>
+</ScrollView>

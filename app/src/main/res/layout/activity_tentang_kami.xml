@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bgregist"
+    tools:context="com.example.dickyeka.garasibuku.TentangKami">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView3"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/garasibuku" />
+    <TextView
+        android:id="@+id/titleabout"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:text="Garasi Buku v.1.0"/>
+    <TextView
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:textSize="14dp"
+        android:text="@string/deskripsigarasibuku"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:text="@string/fiturgarasibuku"
+            android:textColor="#FFFFFF"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="65dp"
+        app:srcCompat="@drawable/movetastic" />
+
+    <TextView
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:text="@string/anggota"/>
+</LinearLayout>

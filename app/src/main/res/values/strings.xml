@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="app_name">Garasi Buku</string>
+    <string name="title_activity_navigation_drawer">Garasi Buku</string>
+    <string name="profil">Profil</string>
+    <string name="belibuku">Katalog Buku</string>
+    <string name="jualbuku">Jual Buku</string>
+    <string name="editprofil">Edit Profil</string>
+    <string name="tab_1">UMUM</string>
+    <string name="tab_2">KHUSUS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="email">Email Id</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_register">New user, tap here to register !</string>
+    <string name="register">Register</string>
+
+    <string name="user_successfully_added">User successfully added!</string>
+    <string name="user_unable_to_add">Unable to add user!</string>
+    <string name="adding_user_to_db">Adding user to database.</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait...</string>
+
+    <string name="font_family_roboto_light">sans-serif-thin</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure">Are you sure ?</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="deskripsigarasibuku">
+        Garasi Buku adalah aplikasi berbasis android yang berfungsi sebagai media promosi penjualan
+        modul perkuliahan bekas yang layak pakai bagi mahasiswa Program Diploma IPB. \n \n
+        Fitur - fitur yang disediakan :
+    </string>
+    <string name="fiturgarasibuku">
+         - Pencarian Buku Modul \n
+         - Representative User-profile\n
+         - Integrated Google Maps\n
+         - Chit and Chat! (Coming Soon)\n
+    </string>
+    <string name="anggota">
+        Dicky E. | Agniya G. | F. A. Hanum | Ivan P. \n \n INF-IPB 52
+    </string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="datajenis">
+        <item>Umum</item>
+        <item>Khusus</item>
+    </string-array>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="upload_image">UPLOAD IMAGE</string>
+    <string name="read_file">This app needs access to your file storage so that it can read photos.</string>
+</resources>
